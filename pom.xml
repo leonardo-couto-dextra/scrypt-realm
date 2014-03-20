@@ -1,11 +1,10 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.dextra.security</groupId>
   <artifactId>scrypt-realm</artifactId>
   <packaging>jar</packaging>
-  <version>0.1.0-SNAPSHOT</version>
+  <version>0.1.0</version>
   <name>Scrypt Tomcat security realm</name>
 
   <properties>
@@ -16,7 +15,7 @@
     <connection>scm:git:ssh://git@github.com/leonardo-dextra/scrypt-realm.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/leonardo-dextra/scrypt-realm.git</developerConnection>
     <url>https://github.com/leonardo-dextra/scrypt-realm</url>
-    <tag>HEAD</tag>
+    <tag>scrypt-realm-0.1.0</tag>
   </scm>
 
   <distributionManagement>
