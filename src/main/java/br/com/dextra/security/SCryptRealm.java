@@ -36,7 +36,7 @@ public class SCryptRealm extends JDBCRealm {
         if (!validated) return null;
         
         ArrayList<String> roles = getRoles(username);
-        return new ScryptPrincipal(username, credentials, roles);
+        return new ScryptPrincipalImpl(username, credentials, roles);
     }
 
     

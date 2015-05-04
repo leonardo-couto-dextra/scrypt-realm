@@ -1,13 +1,10 @@
 package br.com.dextra.security;
 
-import java.util.List;
+import java.security.Principal;
 
-import org.apache.catalina.realm.GenericPrincipal;
-
-public class ScryptPrincipal extends GenericPrincipal {
-
-    public ScryptPrincipal(String name, String password, List<String> roles) {
-        super(name, password, roles);
-    }
-
-}
+public interface ScryptPrincipal extends Principal {
+    
+    public String getPassword();
+    public String[] getRoles();
+    
+} 
