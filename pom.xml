@@ -4,7 +4,7 @@
   <groupId>br.com.dextra.security</groupId>
   <artifactId>scrypt-realm</artifactId>
   <packaging>jar</packaging>
-  <version> 0.1.2-SNAPSHOT</version>
+  <version> 0.1.2</version>
   <name>Scrypt Tomcat security realm</name>
 
   <properties>
@@ -15,7 +15,7 @@
     <connection>scm:git:ssh://git@github.com/leonardo-dextra/scrypt-realm.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/leonardo-dextra/scrypt-realm.git</developerConnection>
     <url>https://github.com/leonardo-dextra/scrypt-realm</url>
-    <tag>HEAD</tag>
+    <tag>scrypt-realm-0.1.2</tag>
   </scm>
 
   <distributionManagement>
