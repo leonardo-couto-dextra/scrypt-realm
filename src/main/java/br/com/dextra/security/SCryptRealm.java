@@ -4,7 +4,6 @@ import java.security.Principal;
 import java.sql.Connection;
 import java.util.ArrayList;
 
-import org.apache.catalina.realm.GenericPrincipal;
 import org.apache.catalina.realm.JDBCRealm;
 
 import com.lambdaworks.crypto.SCryptUtil;
@@ -37,7 +36,7 @@ public class SCryptRealm extends JDBCRealm {
         if (!validated) return null;
         
         ArrayList<String> roles = getRoles(username);
-       	return new GenericPrincipal(username, credentials, roles);
+        return new ScryptPrincipal(username, credentials, roles);
     }
 
     
