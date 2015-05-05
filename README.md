@@ -23,7 +23,7 @@ The jar is available in our maven repository below
   <dependency>
     <groupId>br.com.dextra.security</groupId>
     <artifactId>scrypt-realm</artifactId>
-    <version>0.1.1</version>
+    <version>0.1.3</version>
   </dependency>
 ```
 
