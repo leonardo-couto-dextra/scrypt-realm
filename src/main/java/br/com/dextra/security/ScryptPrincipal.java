@@ -6,5 +6,6 @@ public interface ScryptPrincipal extends Principal {
     
     public String getPassword();
     public String[] getRoles();
+    public void setPassword(String password);
     
 } 
