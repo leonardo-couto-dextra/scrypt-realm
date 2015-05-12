@@ -12,9 +12,9 @@
   </properties>
 
   <scm>
-    <connection>scm:git:ssh://git@github.com/leonardo-dextra/scrypt-realm.git</connection>
-    <developerConnection>scm:git:ssh://git@github.com/leonardo-dextra/scrypt-realm.git</developerConnection>
-    <url>https://github.com/leonardo-dextra/scrypt-realm</url>
+    <connection>scm:git:ssh://git@github.com/leonardo-couto-dextra/scrypt-realm.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/leonardo-couto-dextra/scrypt-realm.git</developerConnection>
+    <url>https://github.com/leonardo-couto-dextra/scrypt-realm</url>
     <tag>HEAD</tag>
   </scm>
 
